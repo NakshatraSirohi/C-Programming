@@ -1,0 +1,130 @@
+Convert an integer to a float and vice versa.
+Input a character and print its ASCII value and character along it.
+Check whether a number is even or odd using if-else statements.
+Determine if a year is a leap year or not.
+Implement a basic calculator using a if-else ladder & switch statement.
+Input numbers until -1 is entered and print their sum.
+Create a function to add two numbers and call it from the main program.
+Write a function to find the maximum of two numbers.
+Create a function to calculate the average of three numbers.
+Declare an array of integers and initialize it with values.
+Find the sum and average of elements in an array.
+Create a matrix and find the sum of each row and column.
+Search for an element in an array and print its index.
+Declare a string and initialize it with a value.
+Calculate the length of a string without using library functions.
+Concatenate two strings without using library functions.
+Compare two strings without using library functions.
+Reverse a string without using library functions.
+Perform bitwise AND, OR, XOR on two integers.
+Invert the bits of an integer.
+Count the number of set bits in an integer.
+Toggle specific bits in an integer.
+Check if a number is a power of two.
+Swap two numbers with and without using a temporary variable.
+Determine the grade based on marks using if-else ladder.
+Create a function to find the nth power of a number.
+Create a function to check if a number is prime or not.
+Check if a given string is a palindrome.
+Implement a function to copy one string to another.
+Use bitwise operators to check if a number is odd or even.
+Calculate the sum of the series: 1 + 2 + 3 + ... + n.
+Print prime numbers up to a given limit.
+Check if a number is an Armstrong number.
+Check if a number is a palindrome.
+Find the square root of a number without using library functions.
+Calculate the area of a rectangle.
+Find all Pythagorean triplets up to a given limit.
+Calculate the GCD and LCM of two numbers.
+Convert temperature from Celsius to Fahrenheit and vice versa.
+Take user input for factorial calculation.
+Add two matrices entered by the user.
+Solve a linear equation (ax + b = 0) for the given coefficients.
+Find and print unique elements in an array.
+Find the transpose of a matrix.
+Find the intersection of two arrays.
+Calculate the sum of diagonals in a 2D array.
+Convert a binary number to its decimal equivalent.
+Convert a decimal number to its binary equivalent.
+Determine if two strings are anagrams.
+Reverse the words in a given sentence.
+Calculate the factorial of a large number using an array.
+Find the prime factors of a given number.
+Multiply two matrices.
+Solve a quadratic equation for given coefficients.
+Add a constant value to each element of an array and print the modified array.
+Implement a program to calculate the area of a triangle.
+Merge two sorted arrays into a single sorted array.
+Find the missing number in an array of integers from 1 to N.
+Write a program to count the number of vowels and consonants in a given string.
+Implement a function to reverse a string in place.
+Check if a string is a valid palindrome ignoring spaces and case.
+Write a program to count the occurrences of each character in a string.
+Convert a hexadecimal number to a decimal number.
+Convert a decimal number to a Roman numeral.
+Convert a Roman numeral to a decimal number.
+Calculate the distance between two points in a 2D plane.
+Implement a program to check if three given points are collinear.
+Find the area of a polygon given its vertices.
+Determine if a point lies inside, outside, or on the boundary of a rectangle.
+Calculate the volume of a cylinder given its radius and height.
+Check whether a given number is positive, negative, or zero.
+Write a program to find the maximum of three numbers.
+Create a program that prints a multiplication table for a given number.
+Write a program to count the number of even and odd elements in an array.
+Search for a specific element in an array and print its index.
+Reverse the elements of an array without using additional space.
+Check if a given number is divisible by both 2 and 3 using logical operators.
+Shift bits to the left and right and print the results.
+Write a program to check if a number is a power of 2 using bitwise operators.
+Input two numbers and find their product, quotient, and remainder.
+Write a program to read a character from the user and determine if it's a vowel or consonant.
+Display the Fibonacci series up to a specified number of terms.
+Calculate the sum of digits of a number.
+Calculate the determinant of a 2x2 & 3x3 matrix.
+Develop a program to find the GCD of two numbers using the Euclidean algorithm.
+Implement a function to calculate the nth term of the Fibonacci series.
+Create a program to find the roots of a quadratic equation.
+Check if a given string is a palindrome without using extra space.
+Create a program to perform basic statistical operations on an array (mean, median, mode).
+Check if a given point lies inside a given rectangle.
+Write a program to calculate the square root of a number using the Newton-Raphson method.
+Write a program to find the longest common subsequence of two strings.
+Implement a program to calculate the value of π using the Monte Carlo method.
+Create a program to reverse the words in a sentence without using additional space.
+Write a program to find the kth smallest/largest element in an array.
+Implement a program to check if a given number is a perfect number.
+Implement a program to find the longest increasing subsequence in an array.
+Implement a switch-case statement for days of the week.
+Write a while loop to calculate the sum of numbers from 1 to n.
+Create a do-while loop to get user input until they enter a positive number.
+Write a function to find the maximum number in a matrix of any order.
+Calculate the remainder when dividing 15 by 4.
+Implement logical AND, OR, and NOT operations.
+Create a program to determine if a student passed (grade >= 50) and attended more than 75% of classes.
+Swap two numbers without using a temporary variable using bitwise operators.
+Count the number of set bits in a given integer.
+Write a program to check if a number is a palindrome in both binary and decimal.
+Implement a program to add two binary numbers.
+Count the number of words and letters in a sentence.
+Remove all spaces from a given string.
+Replace all occurrences of a specific character in a string.
+Convert a string to uppercase, lowercase, camelcase.
+Find the index of the first occurrence of a substring in a string.
+Remove duplicate elements from an array.
+Shift all zeros to the end of an array.
+Toggle the rightmost unset bit in a number.
+Find the position of the first set bit in a binary representation of a number.
+Swap the even and odd bits in a binary representation.
+Find the index of the first occurrence of the specific character in the string.
+Create a program to print a magic square of size 3x3.
+Check if a given matrix is a symmetric matrix.
+Implement a program to multiply two matrices and find the sum of elements in each row and column.
+Check if a given 3x3 matrix is a magic square.
+Implement a program to remove duplicate elements from an array.
+Implement the bubble sort algorithm.
+Implement the selection sort algorithm.
+Implement the insertion sort algorithm.
+Implement linear search on an array.
+Implement binary search on a sorted array.
+Calculate factorial of a number using recursion.
