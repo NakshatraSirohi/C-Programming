@@ -18,6 +18,7 @@ void inputElement(int arr[rc][rc], int row, int col)
     else
     {
         printf("size overflow");
+        exit(0);
     }
 }
 void printElement(int arr[rc][rc], int row, int col)
