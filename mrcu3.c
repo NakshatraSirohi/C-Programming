@@ -1,29 +1,34 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // QUESTION --> 19
-#define rc 100
-void inputElement(int arr[rc][rc], int row, int col)
+#define RC 100
+void inputElement(int arr[RC][RC], int row, int col)
 {
-    if (row < rc && col < rc)
+    if (row < RC && col < RC)
     {
-        printf("enter %d elements\n", (row * col));
+        printf("Enter %d elements:\n", (row * col));
         for (int i = 0; i < row; i++)
         {
             for (int j = 0; j < col; j++)
             {
-                scanf("%d", &arr[i][j]);
+                if (scanf("%d", &arr[i][j]) != 1)
+                {
+                    printf("Invalid input. Please enter integers only.\n");
+                    exit(1);
+                }
             }
         }
     }
     else
     {
-        printf("size overflow");
-        exit(0);
+        printf("Size overflow\n");
+        exit(1);
     }
 }
-void printElement(int arr[rc][rc], int row, int col)
+void printElement(int arr[RC][RC], int row, int col)
 {
-    printf("printing elements\n");
+    printf("Printing elements:\n");
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
@@ -35,13 +40,17 @@ void printElement(int arr[rc][rc], int row, int col)
 }
 void ques19()
 {
-    int arr1[rc][rc];
-    int arr2[rc][rc];
-    int arr3[rc][rc] = {0};
+    int arr1[RC][RC];
+    int arr2[RC][RC];
+    int arr3[RC][RC] = {0};
 
     int row1, col1, row2, col2;
-    printf("enter row1, col1, row2, col2 : ");
-    scanf("%d %d %d %d", &row1, &col1, &row2, &col2);
+    printf("Enter row1, col1, row2, col2: ");
+    if (scanf("%d %d %d %d", &row1, &col1, &row2, &col2) != 4)
+    {
+        printf("Invalid input. Please enter four integers.\n");
+        exit(1);
+    }
 
     inputElement(arr1, row1, col1);
     inputElement(arr2, row2, col2);
@@ -49,25 +58,25 @@ void ques19()
     printElement(arr1, row1, col1);
     printElement(arr2, row2, col2);
 
-    if (row2 == col1)
+    if (col1 == row2)
     {
-        for (int i = 0; i < row2; i++)
+        for (int i = 0; i < row1; i++)
         {
-            for (int j = 0; j < col1; j++)
+            for (int j = 0; j < col2; j++)
             {
                 int res = 0;
-                for (int k = 0; k < row2; k++)
+                for (int k = 0; k < col1; k++)
                 {
                     res += (arr1[i][k] * arr2[k][j]);
                 }
                 arr3[i][j] = res;
             }
         }
-        printElement(arr3, row2, col1);
+        printElement(arr3, row1, col2);
     }
     else
     {
-        printf("multiplication not possible.");
+        printf("Multiplication not possible\n");
     }
 }
 
@@ -268,6 +277,5 @@ void ques30()
 
 int main()
 {
-    ques19();
     return 0;
 }
